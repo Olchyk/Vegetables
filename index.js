@@ -3,7 +3,8 @@ const http = require('http');
 const url = require('url');
 const slugify = require('slugify');
 const replaceTemplate = require('./modules/replaceTemplate');
-
+///////////
+//just testing some code for checking
 /////////////////////////////////
 // SERVER
 const tempOverview = fs.readFileSync(
