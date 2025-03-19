@@ -69,5 +69,5 @@ const server = http.createServer((req, res) => {
 module.exports = server; // here is connecting the server with testing
 
 server.listen(8000, '127.0.0.1', () => {
-  console.log('Listening to requests on port 8000');
+  console.log('Listening to requests on port 8000'); // here is connecting the server with testing
 });
