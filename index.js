@@ -63,7 +63,7 @@ const server = http.createServer((req, res) => {
       'Content-type': 'text/html',
       'my-own-header': 'hello-world',
     });
-    res.end('<h1>Page not found!</h1>');
+    res.end('<h1>Page not found!</h1>'); // here is connecting the server with testing
   }
 });
 module.exports = server; // here is connecting the server with testing
