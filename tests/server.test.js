@@ -1,6 +1,6 @@
 const request = require('supertest');
 const server = require('../index');
-
+//тестування
 describe('Тестування API сервера', () => {
   afterAll(() => {
     server.close();
